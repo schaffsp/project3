@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-Container {
+  margin-top: 5px;
+  margin-left: 30vh;
+  margin-right: 30vh;
+  margin-bottom: 5px;
+  background-color: slategray;
+  padding: 20px;
+  border-radius: 1em;
+}
+
+.App-Container > h1 {
+  margin-top: 0pxs;
+  color: azure;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+  /* place here CSS targeted at iPads and smaller, including iPhones and small hand-held devices */
+
+  .App-Container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
